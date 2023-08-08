@@ -383,40 +383,40 @@
         </footer>
         <script>
 
-        //     const bar = document.querySelector(".bar");
-        //     const navbar = document.querySelector('.list');
-        //     const navbarli = document.querySelectorAll(".list li");
+             const bar = document.querySelector(".bar");
+             const navbar = document.querySelector('.list');
+             const navbarli = document.querySelectorAll(".list li");
 
-        //     bar.addEventListener("click", () => {
-        //         bar.classList.toggle("active");
-        //         navbar.classList.toggle('active');
-        //     });
+             bar.addEventListener("click", () => {
+                 bar.classList.toggle("active");
+                 navbar.classList.toggle('active');
+             });
 
-        //     let btn = document.querySelector(".bar");
-        //     let icon = btn.querySelector(".fa-bars");
-        //     btn.onclick = function () {
-        //         if (icon.classList.contains("fa-bars")) {
-        //             icon.classList.replace("fa-bars", "fa-times");
-        //         } else {
-        //             icon.classList.replace("fa-times", "fa-bars");
-        //         }
-        //     }
-        //     // hamburger button end
+             let btn = document.querySelector(".bar");
+             let icon = btn.querySelector(".fa-bars");
+             btn.onclick = function () {
+                 if (icon.classList.contains("fa-bars")) {
+                     icon.classList.replace("fa-bars", "fa-times");
+                 } else {
+                     icon.classList.replace("fa-times", "fa-bars");
+                 }
+             }
+             // hamburger button end
 
 
-        //     window.addEventListener('scroll', function () {
-        //         // console.log("test");
-        //         let TopScrolled = window.pageYOffset || document.documentElement.scrollTop;
-        //         // console.log(TopScrolled);
-        //         if (TopScrolled > 1) {
-        //             document.querySelector(".list").classList.remove("active");
-        //             icon.classList.replace("fa-times", "fa-bars");
-        //         } else {
-        //             // document.getElementById("main-header").classList.add("fixedmenu");
-        //         }
-        //     });
+             window.addEventListener('scroll', function () {
+                 // console.log("test");
+                 let TopScrolled = window.pageYOffset || document.documentElement.scrollTop;
+                 // console.log(TopScrolled);
+                 if (TopScrolled > 1) {
+                     document.querySelector(".list").classList.remove("active");
+                     icon.classList.replace("fa-times", "fa-bars");
+                 } else {
+                     // document.getElementById("main-header").classList.add("fixedmenu");
+                 }
+             });
 
-        // </script>
+         </script>
     </body>
 
 </html>
